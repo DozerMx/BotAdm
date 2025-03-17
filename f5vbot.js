@@ -215,7 +215,7 @@ module.exports = async (client, m) => {
 *Usa los comandos con responsabilidad* 🚨
 `;
     const menuOptions = {
-        image: { url: '/storage/emulated/0/Bot_ejemplo/F5V-BOT/src/menu.png' },
+        image: { url: 'src/menu.png' },
         caption: menuMessage,
         headerType: 4
     };
