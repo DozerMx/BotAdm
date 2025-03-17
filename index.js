@@ -1,12 +1,6 @@
 require('./config')
 const { default: f5vConnect, PHONENUMBER_MCC,makeCacheableSignalKeyStore,useMultiFileAuthState, delay, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getAggregateVotesInPollMessage } = require("@whiskeysockets/baileys")
 const pino = require('pino')
-const PHONENUMBER_MCC = {
-    "+57": "Colombia",
-    "+52": "México",
-    "+1": "Estados Unidos",
-    // Agrega más códigos de país según sea necesario
-};
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
 const yargs = require('yargs/yargs')
